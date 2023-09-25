@@ -9,18 +9,18 @@ sudo dnf groupinstall "i3 window manager (supplemental packages)"
 ```
 
 Some additional convenience tools you may want to install are:
-mpv - Compact tiled video 
-ranger - File Manager (Including a configuration change in this repo)
-neomutt - Mail client
-newsboat - RSS Feeds
-maim - Screen capture
-caca-utils - image to text
-highlight - color terminal previews of code in ranger
-atool - archive info, packing and extraction tools
-w3m - a web browser for the terminal, doesn't process JS
-w3m-img - Allow images to display in the terminal 
-poppler-utils - Convert PDF's into text, useful in ranger
-mediainfo - tools to allow ranger to correctly preview various mime types.
+- *mpv* - Compact tiled video 
+- *ranger* - File Manager (Including a configuration change in this repo)
+- *neomutt* - Mail client
+- *newsboat* - RSS Feeds
+- *maim* - Screen capture
+- *caca-utils* - image to text
+- *highlight* - color terminal previews of code in ranger
+- *atool* - archive info, packing and extraction tools
+- *w3m* - a web browser for the terminal, doesn't process JS
+- *w3m-img* - Allow images to display in the terminal 
+- *poppler-utils* - Convert PDF's into text, useful in ranger
+- *mediainfo* - tools to allow ranger to correctly preview various mime types.
 
 ```bash
 sudo dnf install mpv ranger neomutt newsboat maim caca-utils highlight atool w3m w3m-img poppler-utils mediainfo
